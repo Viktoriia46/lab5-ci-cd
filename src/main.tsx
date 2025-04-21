@@ -1,9 +1,6 @@
-import React from 'react';
-
 function sayHello(name: string) {
+    // eslint-disable-next-line no-console
     console.log("Hello, " + name);
 }
 
 sayHello("World");
-
-const unused = 42;
